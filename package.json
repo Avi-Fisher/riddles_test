@@ -1,0 +1,24 @@
+{
+  "name": "riddle_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avi-Fisher/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Avi-Fisher/test/issues"
+  },
+  "homepage": "https://github.com/Avi-Fisher/test#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
