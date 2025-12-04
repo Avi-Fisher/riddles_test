@@ -1,6 +1,5 @@
 import { ask_riddle } from "./ask_riddle.js"
 import { get_input } from "../function_help/get_input.js"
-import {riddels} from "../riddles/all_riddels.js"
 import { cehck_ansher } from "./cehck_ansher.js"
 
 export function riddle_game(riddle){

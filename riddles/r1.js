@@ -1,5 +1,5 @@
 
-export  let riddel1 = {
+export  default {
 
     id:1,
     name:"easy math",

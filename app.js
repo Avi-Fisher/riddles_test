@@ -1,7 +1,7 @@
 import { get_input } from "./function_help/get_input.js";
 import { riddle_game } from "./game/game.js";
 import { create_player } from "./player/create_player.js";
-import { riddels } from "./riddles/all_riddels.js"
+import  riddels  from "./riddles/all_riddels.js"
 import { add_time } from "./time/add_solve_time.js";
 import { Time_calculation } from "./time/decrotor_time.js";
 import { show_status } from "./time/show_status.js";
