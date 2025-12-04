@@ -14,7 +14,10 @@ export function show_status(player) {
 
     let average_time = average(player.times);
 
-    return { sum_in_sec: sum_time, average_in_sec: average_time }
+    console.log(player.name ,"Your status time is:")
+    console.log("Sum time in sec:", sum_time, "average time in sec:", average_time);
+    
+        
 }
 
 

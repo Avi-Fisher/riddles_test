@@ -1,4 +1,4 @@
-import { get_input } from "./function_help/get_input.js";
+import { get_input } from "./utils/get_input.js";
 import { riddle_game } from "./game/game.js";
 import { create_player } from "./player/create_player.js";
 import  riddels  from "./riddles/all_riddels.js"
@@ -13,7 +13,7 @@ function full_game() {
     console.log("Welcome To The Riddel Game");
 
     console.log("Enter your name: ");
-    let name = get_input
+    let name = get_input()
 
     let player = create_player(name)
 
@@ -27,8 +27,8 @@ function full_game() {
         add_time(player,time)
     }
 
-
-    console.log(show_status(player));
+    
+    show_status(player);
     
 }
 
